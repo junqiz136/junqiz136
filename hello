@@ -1,0 +1,12 @@
+print ("what's your name?")
+a=input("Enter your name: ")
+if(a=="junqiz136"):
+    print ("Hello Junqiz") 
+    print ("how old r u?")
+    b=input("age")
+    if(int(b)<18):
+     print("you are young")
+    elif int(b)>=18 and int(b)<25:
+       print("u r handsome!")
+    else :print ("oh, you are oldest")
+else:print("you are not junqiz, you are {}".format(a))
